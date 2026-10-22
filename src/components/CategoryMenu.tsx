@@ -2,7 +2,7 @@ const categories = ['All', 'Fiction', 'Tech', 'Business', 'Self-Improvement', 'A
 
 export default function CategoryMenu() {
   return (
-    <section className="py-6 border-b border-slate-100 space-y-4">
+    <section className="py-6 border-b border-slate-100">
       <div className="flex items-center gap-2 overflow-x-auto pb-2">
         {categories.map((category) => (
           <button
@@ -13,16 +13,6 @@ export default function CategoryMenu() {
             {category}
           </button>
         ))}
-      </div>
-      <div className="flex items-center gap-4 text-sm text-slate-600">
-        <span>Price Range</span>
-        <input 
-            type="range" 
-            min="0" 
-            max="100" 
-            className="w-full max-w-xs cursor-pointer"
-            onChange={(e) => console.log('Price filter:', e.target.value)} 
-        />
       </div>
     </section>
   );
