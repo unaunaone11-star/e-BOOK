@@ -1,0 +1,6 @@
+{
+  "name": "Digital E-Book Store",
+  "description": "A premium, responsive online store for purchasing and instantly accessing digital e-books securely.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
