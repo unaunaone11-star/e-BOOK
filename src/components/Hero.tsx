@@ -9,8 +9,12 @@ export default function Hero() {
       />
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 text-center px-6">
-        <h1 className="text-2xl md:text-6xl font-bold text-white mb-6 tracking-tight" style={{ textWrap: 'balance' }}>
-          How to succeed in life
+        <h1 className="text-2xl md:text-6xl font-bold mb-6 tracking-tight" style={{ textWrap: 'balance' }}>
+          <span className="text-blue-400">How </span>
+          <span className="text-emerald-400">to </span>
+          <span className="text-amber-400">succeed </span>
+          <span className="text-rose-400">in </span>
+          <span className="text-violet-400">life</span>
         </h1>
         
       </div>

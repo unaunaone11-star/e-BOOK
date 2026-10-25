@@ -30,7 +30,10 @@ interface Props {
 export default function FeaturedBooks({ onBookClick, wishlist, toggleWishlist, isLoading }: Props) {
   return (
     <section className="py-12">
-      <h2 className="text-2xl font-bold text-slate-900 mb-8">Featured Books</h2>
+      <h2 className="text-2xl font-bold mb-8">
+        <span className="text-blue-500">Featured </span>
+        <span className="text-rose-500">Books</span>
+      </h2>
       {isLoading ? (
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {[...Array(4)].map((_, i) => (
