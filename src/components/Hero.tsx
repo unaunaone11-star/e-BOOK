@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="relative w-full h-[40vh] min-h-[300px] md:h-[60vh] md:min-h-[500px] flex items-center justify-center overflow-hidden rounded-2xl">
       <img
-        src="/src/assets/images/hero_new_banner_1792510410439.jpg"
+        src="/images/hero_new_banner_1792510410439.jpg"
         alt="Cozy library setting"
         className="absolute inset-0 w-full h-full object-cover brightness-90 contrast-105"
         referrerPolicy="no-referrer"

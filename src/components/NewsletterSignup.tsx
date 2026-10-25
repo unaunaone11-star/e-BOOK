@@ -1,7 +1,7 @@
 export default function NewsletterSignup() {
   return (
     <section className="py-16 bg-slate-900 text-white rounded-lg my-12 overflow-hidden">
-      <img src="/src/assets/images/newsletter_banner.jpg" alt="Newsletter" className="w-full h-48 object-cover mb-6 opacity-80" />
+      <img src="/images/newsletter_banner.jpg" alt="Newsletter" className="w-full h-48 object-cover mb-6 opacity-80" />
       <div className="max-w-xl mx-auto px-6 text-center">
         <h2 className="text-2xl font-bold mb-4">Stay Inspired</h2>
         <p className="text-slate-300 mb-8">Subscribe to our newsletter for new releases, special offers, and curated reading lists.</p>

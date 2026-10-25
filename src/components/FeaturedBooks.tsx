@@ -14,10 +14,10 @@ interface Book {
 }
 
 export const featuredBooks: Book[] = [
-  { id: 1, title: 'How to succeed in life', author: 'Eliza Reed', price: '₹99', image: '/src/assets/images/uploaded_book_cover.png', description: 'A gripping tale of mystery and suspense.', buyUrl: 'https://superprofile.bio/vp/घर-बैठे-कमाई-के-practical-तरीके', rating: 5, review: 'Incredible insights, truly life-changing!' },
-  { id: 2, title: 'E-Commerce Business कैसे शुरू करें', author: 'Marcus Thorne', price: '₹29', image: '/src/assets/images/book_cover_2.png', description: 'A journey through forgotten memories.', buyUrl: 'https://superprofile.bio/vp/e-commerce-business-कैसे-शुरू-करें', rating: 5, review: 'Very practical and easy to follow.' },
-  { id: 3, title: 'Meesho Seller Guide: Step by Step', author: 'Sarah Jenkins', price: '₹99', image: '/src/assets/images/meesho_book_cover.png', description: 'Exploring the beauty of silence and vast landscapes.', buyUrl: 'https://superprofile.bio/vp/howstep-by-step-guide', rating: 4, review: 'Useful guide for beginners.' },
-  { id: 4, title: 'Urban Shadows', author: 'David Chen', price: '₹49', image: '/src/assets/images/khan_sir_book_cover.png', description: 'Secrets hidden in the bustling city streets.', buyUrl: 'https://superprofile.bio/vp/khan-sir--succcessfull-story-', rating: 5, review: 'Fantastic read, highly recommended.' },
+  { id: 1, title: 'How to succeed in life', author: 'Eliza Reed', price: '₹99', image: '/images/uploaded_book_cover.png', description: 'A gripping tale of mystery and suspense.', buyUrl: 'https://superprofile.bio/vp/घर-बैठे-कमाई-के-practical-तरीके', rating: 5, review: 'Incredible insights, truly life-changing!' },
+  { id: 2, title: 'E-Commerce Business कैसे शुरू करें', author: 'Marcus Thorne', price: '₹29', image: '/images/book_cover_2.png', description: 'A journey through forgotten memories.', buyUrl: 'https://superprofile.bio/vp/e-commerce-business-कैसे-शुरू-करें', rating: 5, review: 'Very practical and easy to follow.' },
+  { id: 3, title: 'Meesho Seller Guide: Step by Step', author: 'Sarah Jenkins', price: '₹99', image: '/images/meesho_book_cover.png', description: 'Exploring the beauty of silence and vast landscapes.', buyUrl: 'https://superprofile.bio/vp/howstep-by-step-guide', rating: 4, review: 'Useful guide for beginners.' },
+  { id: 4, title: 'Urban Shadows', author: 'David Chen', price: '₹49', image: '/images/khan_sir_book_cover.png', description: 'Secrets hidden in the bustling city streets.', buyUrl: 'https://superprofile.bio/vp/khan-sir--succcessfull-story-', rating: 5, review: 'Fantastic read, highly recommended.' },
 ];
 
 interface Props {
